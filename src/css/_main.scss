@@ -1,0 +1,96 @@
+/* variables */
+:root {
+  --dark-blue: #2565ae;
+  --blue: #3c99dc;
+  --light-blue: #66d3fa;
+}
+
+/* animations */
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+@keyframes background-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* text effect */
+.magic {
+  animation: background-pan 2000ms linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--dark-blue),
+    var(--blue),
+    var(--light-blue),
+    var(--dark-blue)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* common styles */
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* tag styles */
+body {
+  opacity: 0;
+}
+body::before {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/work-space-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  content: "";
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+  z-index: -1;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2 {
+  position: relative;
+  margin: 0 auto 60px;
+  text-align: center;
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+}

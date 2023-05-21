@@ -1,0 +1,46 @@
+#hero {
+  background-color: black;
+}
+
+.hero {
+  display: flex;
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 200px 120px;
+  opacity: 0;
+  filter: blur(8px);
+  transform: translateX(-200px);
+  &__title {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    font-size: 40px;
+    .hero__name {
+      position: relative;
+      font-size: 80px;
+      margin-bottom: 12px;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -38px;
+        left: 0;
+        width: 160px;
+        height: 4px;
+        animation: background-pan 2000ms linear infinite;
+        background: linear-gradient(
+          to right,
+          var(--dark-blue),
+          var(--blue),
+          var(--light-blue),
+          var(--dark-blue)
+        );
+        background-size: 200%;
+      }
+    }
+    .hero__prof {
+      display: block;
+      margin-left: auto;
+    }
+  }
+}
