@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a7689661.css",
+    "main.js": "/portfolio/static/js/main.ca547c27.js",
+    "static/media/work-space-background.jpg": "/portfolio/static/media/work-space-background.d5b3f2b7e5dfcafef6ee.jpg",
+    "static/media/webstudio1.png": "/portfolio/static/media/webstudio1.c7095784cf321fcded8f.png",
+    "static/media/filmoteka1.png": "/portfolio/static/media/filmoteka1.de0e314fc1b721b66f40.png",
+    "static/media/filmoteka2.png": "/portfolio/static/media/filmoteka2.763d37df0b765b2f556d.png",
+    "static/media/filmoteka3.png": "/portfolio/static/media/filmoteka3.8afd54445a359d7b607f.png",
+    "static/media/3dfreedom2.png": "/portfolio/static/media/3dfreedom2.1e07b79087023b82771f.png",
+    "static/media/webstudio2.png": "/portfolio/static/media/webstudio2.8e47c0b65fcc31dd27c5.png",
+    "static/media/3dfreedom1.png": "/portfolio/static/media/3dfreedom1.01cd36b8f3f6e987898e.png",
+    "static/media/3dfreedom3.png": "/portfolio/static/media/3dfreedom3.533c9da7fbb29e83fa1c.png",
+    "static/media/webstudio3.png": "/portfolio/static/media/webstudio3.4fcf9c84d16c9ba727ee.png",
+    "static/media/terry-products1.png": "/portfolio/static/media/terry-products1.afa7e69278ff1dd9a03c.png",
+    "static/media/terry-products2.png": "/portfolio/static/media/terry-products2.2dbec77e04480f29c6ce.png",
+    "static/media/terry-products3.png": "/portfolio/static/media/terry-products3.fdee6ac0f3b3160cab72.png",
+    "index.html": "/portfolio/index.html",
+    "main.a7689661.css.map": "/portfolio/static/css/main.a7689661.css.map",
+    "main.ca547c27.js.map": "/portfolio/static/js/main.ca547c27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7689661.css",
+    "static/js/main.ca547c27.js"
+  ]
+}
