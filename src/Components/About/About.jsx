@@ -1,8 +1,35 @@
+import { useEffect, useRef } from "react";
+import { gsap, Power4 } from "gsap";
+import { useIntersection } from "react-use";
+import me from "../../img/me.png";
+
 export default function About() {
+  const text = useRef(null);
+
+  const intersection = useIntersection(text, {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0,
+  });
+
+  const fadeIn = (elem) => {
+    gsap.to(elem, {
+      x: 0,
+      opacity: 1,
+      filter: "blur(0px)",
+      duration: 3,
+      ease: Power4.easeOut,
+    });
+  };
+
+  useEffect(() => {
+    intersection && intersection.intersectionRatio && fadeIn(text.current);
+  }, [text, intersection]);
+
   return (
     <section id="about-me">
       <div class="about-me">
-        <div class="about-me__info">
+        <div ref={text} class="about-me__info">
           <h2 class="magic">About me</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
@@ -20,7 +47,7 @@ export default function About() {
           </p>
         </div>
         <div class="about-me__img">
-          <img src="../../img/me.png" alt="Profile" />
+          <img src={me} alt="Profile" />
         </div>
       </div>
     </section>

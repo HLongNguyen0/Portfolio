@@ -1,0 +1,49 @@
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 80px 20px;
+  font-size: 20px;
+  &__info {
+    width: 600px;
+    opacity: 0;
+    transform: translateX(-100px);
+    filter: blur(8px);
+  }
+  &__img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 800px;
+      height: 800px;
+      background: linear-gradient(
+        to right,
+        var(--dark-blue),
+        var(--blue),
+        var(--light-blue),
+        var(--dark-blue)
+      );
+      animation: background-rotate 2s linear infinite;
+    }
+  }
+}
+
+.about-me__img img {
+  position: absolute;
+  background-color: black;
+  width: 390px;
+  height: 490px;
+  padding: 20px;
+  border-radius: 20px;
+}

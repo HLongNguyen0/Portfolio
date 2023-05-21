@@ -17,7 +17,7 @@ import freedom3 from "../../img/3dfreedom3.png";
 export default function Projects() {
   const projects = [
     {
-      name: "webstudio",
+      name: "Webstudio",
       link: "https://github.com/HLongNguyen0/goit-markup-hw-08",
       purpose:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
@@ -25,7 +25,7 @@ export default function Projects() {
       img: [webstudio1, webstudio2, webstudio3],
     },
     {
-      name: "terry-products",
+      name: "Terry Products",
       link: "https://github.com/HLongNguyen0/terry-products",
       purpose:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
@@ -33,7 +33,7 @@ export default function Projects() {
       img: [terryProducts1, terryProducts2, terryProducts3],
     },
     {
-      name: "filmoteka",
+      name: "Filmoteka",
       link: "https://github.com/dab82/filmoteka-by-luckycoders",
       purpose:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
@@ -73,7 +73,8 @@ export default function Projects() {
       duration: 2,
       filter: "blur(0px)",
       ease: Power4.easeOut,
-      stagger: 0.2,
+      delay: 1,
+      stagger: 0.3,
     });
   };
 
@@ -98,14 +99,17 @@ export default function Projects() {
             >
               <img src={project.img[0]} alt={project.name} />
               <div className="technologies__info">
-                <p>Tools: {project.tools}</p>
+                <h3>{project.name}</h3>
                 <p>{project.purpose}</p>
               </div>
             </a>
           ))}
-          <li className="technologies__elem">
-            <a href="https://github.com/HLongNguyen0">See more ...</a>
-          </li>
+          <a
+            className="technologies__elem"
+            href="https://github.com/HLongNguyen0"
+          >
+            See more ...
+          </a>
         </div>
       </div>
     </section>

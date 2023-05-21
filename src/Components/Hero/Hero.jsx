@@ -12,7 +12,6 @@ export default function Hero() {
   });
 
   const fadeIn = (elem) => {
-    gsap.set("body", { opacity: 1 });
     gsap.to(elem, {
       x: 0,
       opacity: 1,

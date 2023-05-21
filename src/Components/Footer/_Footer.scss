@@ -1,0 +1,26 @@
+#footer {
+  background-color: #000;
+}
+
+.footer {
+  display: flex;
+  margin: 0 auto;
+  padding: 60px 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  font-size: 20px;
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    &__elem:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+  &__nav {
+    display: flex;
+    &__elem:last-child {
+      margin-left: 40px;
+    }
+  }
+}
