@@ -30,28 +30,36 @@ export default function Sidebar() {
   }, [icons, intersection]);
 
   return (
-    <ul ref={icons} class="sidebar">
-      <li class="icon">
-        <a href="https://github.com/HLongNguyen0">
+    <ul ref={icons} className="sidebar">
+      <li className="icon">
+        <a
+          href="https://github.com/HLongNguyen0"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={github} alt="github" />
         </a>
       </li>
-      <li class="icon">
-        <a href="https://t.me/HLongNguyen">
+      <li className="icon">
+        <a href="https://t.me/HLongNguyen" target="_blank" rel="noreferrer">
           <img src={telegram} alt="telegram" />
         </a>
       </li>
-      <li class="icon">
-        <a href="https://m.me/HLongNguyen0/">
+      <li className="icon">
+        <a href="https://m.me/HLongNguyen0/" target="_blank" rel="noreferrer">
           <img src={messenger} alt="messenger" />
         </a>
       </li>
-      <li class="icon">
-        <a href="https://www.linkedin.com/in/leo-nguyen-3b9a1925b/">
+      <li className="icon">
+        <a
+          href="https://www.linkedin.com/in/leo-nguyen-3b9a1925b/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={linkedin} alt="linkedin" />
         </a>
       </li>
-      <li class="icon">
+      <li className="icon">
         <img src="" alt="" />
       </li>
     </ul>

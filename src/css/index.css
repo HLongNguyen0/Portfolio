@@ -227,6 +227,7 @@ address {
   height: 200px;
   margin: 16px 20px 0;
   background-color: white;
+  cursor: pointer;
   overflow: hidden;
   opacity: 0;
   filter: blur(8px);

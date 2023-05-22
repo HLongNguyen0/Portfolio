@@ -17,22 +17,6 @@ import freedom3 from "../../img/3dfreedom3.png";
 export default function Projects() {
   const projects = [
     {
-      name: "Webstudio",
-      link: "https://github.com/HLongNguyen0/goit-markup-hw-08",
-      purpose:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
-      tools: "HTML, SCSS, JavaScript",
-      img: [webstudio1, webstudio2, webstudio3],
-    },
-    {
-      name: "Terry Products",
-      link: "https://github.com/HLongNguyen0/terry-products",
-      purpose:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
-      tools: "HTML, CSS, JavaScript, React",
-      img: [terryProducts1, terryProducts2, terryProducts3],
-    },
-    {
       name: "Filmoteka",
       link: "https://github.com/dab82/filmoteka-by-luckycoders",
       purpose:
@@ -47,6 +31,22 @@ export default function Projects() {
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
       tools: "HTML, SCSS, JavaScript",
       img: [freedom1, freedom2, freedom3],
+    },
+    {
+      name: "Webstudio",
+      link: "https://github.com/HLongNguyen0/goit-markup-hw-08",
+      purpose:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
+      tools: "HTML, SCSS, JavaScript",
+      img: [webstudio1, webstudio2, webstudio3],
+    },
+    {
+      name: "Terry Products",
+      link: "https://github.com/HLongNguyen0/terry-products",
+      purpose:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
+      tools: "HTML, CSS, JavaScript, React",
+      img: [terryProducts1, terryProducts2, terryProducts3],
     },
   ];
 
@@ -73,7 +73,7 @@ export default function Projects() {
       duration: 2,
       filter: "blur(0px)",
       ease: Power4.easeOut,
-      delay: 1,
+      delay: 0.5,
       stagger: 0.3,
     });
   };
@@ -94,8 +94,11 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               href={project.link}
+              type="button"
               key={project.name}
               className="technologies__elem"
+              target="_blank"
+              rel="noreferrer"
             >
               <img src={project.img[0]} alt={project.name} />
               <div className="technologies__info">
@@ -107,6 +110,8 @@ export default function Projects() {
           <a
             className="technologies__elem"
             href="https://github.com/HLongNguyen0"
+            target="_blank"
+            rel="noreferrer"
           >
             See more ...
           </a>

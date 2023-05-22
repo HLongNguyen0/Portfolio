@@ -28,9 +28,9 @@ export default function About() {
 
   return (
     <section id="about-me">
-      <div class="about-me">
-        <div ref={text} class="about-me__info">
-          <h2 class="magic">About me</h2>
+      <div className="about-me">
+        <div ref={text} className="about-me__info">
+          <h2 className="magic">About me</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
             pariatur hic, ipsa laudantium accusantium quidem mollitia soluta,
@@ -46,7 +46,7 @@ export default function About() {
             praesentium, excepturi itaque natus facilis quasi error?
           </p>
         </div>
-        <div class="about-me__img">
+        <div className="about-me__img">
           <img src={me} alt="Profile" />
         </div>
       </div>
