@@ -20,31 +20,28 @@ export default function Projects() {
       name: "Filmoteka",
       link: "https://github.com/dab82/filmoteka-by-luckycoders",
       purpose:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
+        "Managing you favorite movies easier with your personal online library.",
       tools: "HTML, SCSS, JavaScript",
       img: [filmoteka1, filmoteka2, filmoteka3],
     },
     {
       name: "3dFreedom",
       link: "https://github.com/dab82/3dfreedom",
-      purpose:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
+      purpose: "Online company expertising in selling 3D printed products",
       tools: "HTML, SCSS, JavaScript",
       img: [freedom1, freedom2, freedom3],
     },
     {
       name: "Webstudio",
       link: "https://github.com/HLongNguyen0/goit-markup-hw-08",
-      purpose:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
+      purpose: "Simple portfolio of small startup web development team.",
       tools: "HTML, SCSS, JavaScript",
       img: [webstudio1, webstudio2, webstudio3],
     },
     {
       name: "Terry Products",
       link: "https://github.com/HLongNguyen0/terry-products",
-      purpose:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi autem, voluptas aspernatur sequi distinctio.",
+      purpose: "Landing page for small company selling terry products.",
       tools: "HTML, CSS, JavaScript, React",
       img: [terryProducts1, terryProducts2, terryProducts3],
     },
