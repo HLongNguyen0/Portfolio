@@ -3,9 +3,7 @@ export default function Footer() {
     <footer id="footer">
       <div className="footer">
         <address className="footer__contacts">
-          <span className="footer__contacts__elem">
-            Tel: +49 151 510 577 19
-          </span>
+          <span className="footer__contacts__elem">Tel: +49 173 455 24 39</span>
           <span className="footer__contacts__elem">
             Mail: hlong010100@gmail.com
           </span>

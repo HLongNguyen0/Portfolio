@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap, Power4 } from "gsap";
 import { useIntersection } from "react-use";
 import me from "../../img/me.png";
-import cv from "../../Lebenslauf_Nguyen_Hoang_Long.pdf";
+import cv from "../../Lebenslauf.pdf";
 
 export default function About() {
   const text = useRef(null);
