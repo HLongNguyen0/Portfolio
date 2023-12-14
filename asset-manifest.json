@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6b4ef7bd.css",
-    "main.js": "/portfolio/static/js/main.d4942ff4.js",
+    "main.js": "/portfolio/static/js/main.a5ca30bd.js",
     "static/media/work-space-background.jpg": "/portfolio/static/media/work-space-background.d5b3f2b7e5dfcafef6ee.jpg",
     "static/media/webstudio1.png": "/portfolio/static/media/webstudio1.c7095784cf321fcded8f.png",
     "static/media/filmoteka1.png": "/portfolio/static/media/filmoteka1.de0e314fc1b721b66f40.png",
@@ -12,21 +12,21 @@
     "static/media/3dfreedom1.png": "/portfolio/static/media/3dfreedom1.01cd36b8f3f6e987898e.png",
     "static/media/3dfreedom3.png": "/portfolio/static/media/3dfreedom3.533c9da7fbb29e83fa1c.png",
     "static/media/webstudio3.png": "/portfolio/static/media/webstudio3.4fcf9c84d16c9ba727ee.png",
-    "static/media/Lebenslauf_Nguyen_Hoang_Long.pdf": "/portfolio/static/media/Lebenslauf_Nguyen_Hoang_Long.cbc763b7132214befc7b.pdf",
     "static/media/terry-products1.png": "/portfolio/static/media/terry-products1.afa7e69278ff1dd9a03c.png",
     "static/media/me.png": "/portfolio/static/media/me.85c365ea87361cfd4d90.png",
     "static/media/terry-products2.png": "/portfolio/static/media/terry-products2.2dbec77e04480f29c6ce.png",
     "static/media/terry-products3.png": "/portfolio/static/media/terry-products3.fdee6ac0f3b3160cab72.png",
+    "static/media/Lebenslauf.pdf": "/portfolio/static/media/Lebenslauf.473c17b5569de2847974.pdf",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.ac6aec357da1c122fbdf0fdc7d9cd39b.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.fb411674fdf75e5b05de30467b072eec.svg",
     "static/media/messenger.svg": "/portfolio/static/media/messenger.47dd4ecbd8a295c725b4ebccca6da545.svg",
     "static/media/github.svg": "/portfolio/static/media/github.d1c87729638809677d00434b34b1d2ad.svg",
     "index.html": "/portfolio/index.html",
     "main.6b4ef7bd.css.map": "/portfolio/static/css/main.6b4ef7bd.css.map",
-    "main.d4942ff4.js.map": "/portfolio/static/js/main.d4942ff4.js.map"
+    "main.a5ca30bd.js.map": "/portfolio/static/js/main.a5ca30bd.js.map"
   },
   "entrypoints": [
     "static/css/main.6b4ef7bd.css",
-    "static/js/main.d4942ff4.js"
+    "static/js/main.a5ca30bd.js"
   ]
 }
